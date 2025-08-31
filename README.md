@@ -1,6 +1,6 @@
 # Coffee Stall Revenue & Footfall Analysis
 
-## 📖 Project Overview
+## Project Overview
 This project analyzes the daily sales and customer footfall data of a coffee stall to identify business patterns, categorize sales days (low, regular, peak), and estimate revenue.  
 The analysis uses **clustering (KMeans)**, visualization, and revenue calculations to extract useful business insights.
 
