@@ -1,0 +1,26 @@
+# Business Insights from Coffee Stall Analysis
+
+## Sales Categorization
+- **Low Business Days** → Least customer footfall, minimal sales.
+- **Regular Days** → Average steady customer flow, expected daily revenue baseline.
+- **Peak Days** → Higher sales due to holidays/marketing campaigns.
+
+## Sample Dataset (First 5 Rows After Processing)
+
+| Customers | Avg_Order_Value | Hours | Employees | Mktg_Spend | Foot_Traffic | Daily_Revenue | Date       | DayNumber | Cluster | Occasion        |
+|-----------|-----------------|-------|-----------|------------|--------------|---------------|------------|-----------|---------|-----------------|
+| 152       | 6.74            | 14    | 4         | 106.62     | 97           | 1547.81       | 2023-01-01 | 0         | 0       | Low business day|
+| 485       | 4.50            | 12    | 8         | 57.83      | 744          | 2084.68       | 2023-01-02 | 1         | 1       | Peak Day        |
+| 398       | 9.09            | 6     | 6         | 91.76      | 636          | 3118.39       | 2023-01-03 | 2         | 1       | Peak Day        |
+| 320       | 8.48            | 17    | 4         | 462.63     | 770          | 2912.20       | 2023-01-04 | 3         | 2       | Regular Day     |
+| 156       | 7.44            | 17    | 2         | 412.52     | 232          | 1663.42       | 2023-01-05 | 4         | 0       | Low business day|
+
+---
+
+
+## Revenue Estimates
+| Occasion          | Avg Customers | Avg Revenue (₹) | Avg Sachets Used |
+|------------------|---------------|-----------------|------------------|
+| Low Business Day | 124.34        | 8,082.26        | 125              |
+| Regular Day      | 272.05        | 17,683.01       | 273              |
+| Peak Day         | 422.70        | 25,362.02       | 423              |
