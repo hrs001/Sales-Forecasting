@@ -1,4 +1,4 @@
-# ☕ Coffee Stall Revenue & Footfall Analysis
+# Coffee Stall Revenue & Footfall Analysis
 
 ## 📖 Project Overview
 This project analyzes the daily sales and customer footfall data of a coffee stall to identify business patterns, categorize sales days (low, regular, peak), and estimate revenue.  
@@ -6,7 +6,7 @@ The analysis uses **clustering (KMeans)**, visualization, and revenue calculatio
 
 ---
 
-## 🗂 Dataset
+## Dataset
 - **File:** `coffee_shop_revenue.csv`
 - **Columns included:**
   - `Number_of_Customers_Per_Day`
@@ -22,7 +22,7 @@ The analysis uses **clustering (KMeans)**, visualization, and revenue calculatio
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 1. **Date Assignment**  
    - Starting from `2023-01-01`, each row was assigned a sequential date.
 
@@ -46,14 +46,14 @@ The analysis uses **clustering (KMeans)**, visualization, and revenue calculatio
 ---
 
 
-## 📈 Output (Aggregated Results)
+## Output (Aggregated Results)
 - Average customers/day for each occasion
 - Estimated revenue/day
 - Estimated sachets used/day
 
 ---
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 - Python
 - Pandas
 - NumPy
@@ -62,7 +62,7 @@ The analysis uses **clustering (KMeans)**, visualization, and revenue calculatio
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Add forecasting (ARIMA/Prophet) for future sales prediction
 - Evaluate effect of marketing spend vs. footfall
 - Explore dynamic pricing models
